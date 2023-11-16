@@ -10,4 +10,3 @@ key = os.getenv("newsapi_key")
 request = requests.get(url+key)
 content = request.text
 print(content)
-S
